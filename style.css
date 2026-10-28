@@ -1,0 +1,66 @@
+.block {
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    line-height: 150px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    border-bottom: 1px solid #ccc;
+}
+
+.color-block-1 {
+    background-color: rgb(232, 92, 180);
+}
+
+.color-block-2 {
+    background-color: hsl(120, 66%, 71%);
+}
+
+.color-block-3 {
+    background-color: #889dea;
+}
+
+.image-block-1 {
+    background-image: url('узор1.avif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.image-block-2 {
+    background-image: url('узор1.png');
+    background-repeat: repeat-x;
+    background-size: 250px 250px;
+}
+
+.image-block-3 {
+    background-image: url('узор3.avif');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-attachment: fixed;
+    background-size: 400px auto;
+    background-color: #1a0033;
+}
+
+.gradient-block-1 {
+    background: linear-gradient(to right, #0080ff, #f6398b);
+}
+
+.gradient-block-2 {
+    background: radial-gradient(circle, #00bfff, #001f4d);
+}
+
+.alpha-block-1 {
+    background-color: rgba(255, 0, 0, 0.4);
+}
+
+.alpha-block-2 {
+    background-color: hsla(280, 80%, 50%, 0.4);
+}
+
+.image-block-1,
+.image-block-2,
+.image-block-3 {
+    height: 350px;
+    line-height: 350px;
+}
